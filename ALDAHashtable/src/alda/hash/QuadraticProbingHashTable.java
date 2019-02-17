@@ -1,4 +1,4 @@
-package first;
+package alda.hash;
 
 public class QuadraticProbingHashTable<AnyType> extends ProbingHashTable<AnyType> {
 

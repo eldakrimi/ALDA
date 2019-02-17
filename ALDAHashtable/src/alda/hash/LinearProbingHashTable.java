@@ -1,4 +1,4 @@
-package first;
+package alda.hash;
 /*
  * Ellen Dahlgren, elda7225
  * Samarbetat med Adam Jacobsson, adja6724

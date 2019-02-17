@@ -1,4 +1,4 @@
-package first;
+package alda.linear;
 /*
  * Ellen Dahlgren, elda7225
  * Samarbetat med Adam Jacobsson, adja6724
@@ -183,6 +183,12 @@ public class MyQueue<E> implements ALDAQueue<E> {
     }
 
 
+    /*
+     För insipration och hjälp har jag använt
+     Youtube: "Implementing a Custom Iterator in Java"
+     https://youtu.be/arkoC146TfQ
+     */
+
     @Override
     public Iterator<E> iterator() {
         return new MyIterator();
@@ -231,6 +237,5 @@ public class MyQueue<E> implements ALDAQueue<E> {
         }
     }
 }
-
 
 

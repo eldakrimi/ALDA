@@ -1,4 +1,4 @@
-package first;
+package alda.tree;
 
 import java.util.Random;
 import java.util.SortedSet;

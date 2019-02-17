@@ -6,7 +6,7 @@
  * The file should not be included when you send in your code. The test
  * program will supply it in the same directory as your code.
  */
-package first;
+package alda.linear;
 
 import java.util.Collection;
 
@@ -16,13 +16,13 @@ import java.util.Collection;
  * java.util.Queue</a> where you will find more documentation for most of the
  * methods.
  * <p>
- * Please note that you should implement all the functionality of the queue on
+ * Please note that you should implement all the functionality of the linear on
  * your own using a <em>singly</em> linked list. You may, of course, create
  * temporary linked lists in methods, but you are not allowed to use any arrays,
  * ArrayLists, LinkedLists, Vectors, or other collections anywhere in your code.
  * <p>
  * The test code assumes that the class has a single constructor that takes the
- * capacity of the queue as a parameter.
+ * capacity of the linear as a parameter.
  * <p>
  * Do NOT rename this interface!
  *
@@ -47,14 +47,14 @@ public interface ALDAQueue<E> extends Iterable<E> {
     public boolean isFull();
 
     /**
-     * Set when creating the queue.
+     * Set when creating the linear.
      */
     public int totalCapacity();
 
     public int currentCapacity();
 
     /**
-     * Move all elements equal to e to the end of the queue.
+     * Move all elements equal to e to the end of the linear.
      *
      * @param e
      * @throws NullPointerException if e is null.
@@ -63,4 +63,3 @@ public interface ALDAQueue<E> extends Iterable<E> {
     public int discriminate(E e);
 
 }
-

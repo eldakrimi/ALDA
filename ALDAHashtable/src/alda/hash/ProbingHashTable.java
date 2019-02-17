@@ -1,4 +1,4 @@
-package first;
+package alda.hash;
 
 import java.util.Arrays;
 

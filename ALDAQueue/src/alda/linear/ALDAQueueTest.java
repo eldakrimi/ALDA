@@ -1,3 +1,5 @@
+package alda.linear;
+
 /*
  * This file should not be changed in *ANY* way except the package statement
  * that you may change to whatever suits you. Note that you should *NOT* have
@@ -6,7 +8,7 @@
  * The file should not be included when you send in your code. The test
  * program will supply it in the same directory as your code.
  */
-package first;
+
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -25,7 +27,7 @@ import static org.junit.Assert.*;
 
 /**
  * This class contains JUnit test cases that you can use to test your
- * implementation of the queue.
+ * implementation of the linear.
  *
  * The reason most of the test cases are commented (i.e. hidden) is that it gets
  * too messy if you try to make all of them work at the same time. A better way
@@ -54,7 +56,7 @@ public class ALDAQueueTest {
 
     // This is the only place in the test code that the name of your class
     // is mentioned. You should change it to whatever you call your class.
-    private static final String IMPLEMENTATION_CLASS_NAME = "first.MyQueue";
+    private static final String IMPLEMENTATION_CLASS_NAME = "alda.linear.MyQueue";
 
     private static final int DEFAULT_CAPACITY = 100;
 
@@ -130,7 +132,6 @@ public class ALDAQueueTest {
     public void testNegativeCapacity() {
         createNewQueue(-1);
     }
-
 
     @Test
     public void testEmptyQueueProperties() {

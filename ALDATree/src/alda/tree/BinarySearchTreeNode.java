@@ -1,11 +1,8 @@
 
-package first;
+package alda.tree;
 /*
 Ellen Dahlgren, elda7225
  */
-
-import java.util.LinkedList;
-import java.util.List;
 
 /**
  *

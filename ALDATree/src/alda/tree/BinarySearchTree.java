@@ -1,4 +1,4 @@
-package first;
+package alda.tree;
 
 /**
  * Denna klass representerar ett binärt sökträd. Ni får inte ändra *NÅGOT* i
