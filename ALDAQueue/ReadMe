@@ -1,0 +1,4 @@
+Instruktioner för veckans inlämningsuppgift (enkellänkad kö)
+Den första veckans temauppgift är är en praktisk programmeringsövning. Ni ska implementera en egen köklass baserad på en egenskriven enkellänkad lista som följer ett visst interface.
+Den här uppgiften är enkelt att hitta kod för på nätet. Gör inte det. Uppgiftens huvudsyfte är inte bara att lära er om länkade listor och köer, utan framförallt att öva er på saker som ni måste kunna för att kunna klara kursen. Att ni dessutom inte riskerar att åka dit för plagiat är naturligtvis bara en bonus. Reglerna om samarbete, plagiat och fusk gäller naturligtvis på den här uppgiften lika väl som på alla andra.
+Det du ska lämna in på den här uppgiften är källkoden för er köklass och för nodklassen den använder sig av. Detta blir alltså en eller två javafiler. Samtliga inlämnade filer ska innehålla ditt namn och användarnamn, samt samma information om de du samarbetat med i en kommentar högst upp.
