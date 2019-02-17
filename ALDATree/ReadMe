@@ -1,0 +1,22 @@
+Instruktioner för veckans inlämningsuppgift
+Veckouppgiften för detta tema består av både teori och praktik, och bägge delarna måste bli godkända för att ni ska bli godkända på detta tema.
+
+Praktikdelen går ut på att implementera ett binärt sökträd. Kod för detta finns i boken, så det finns naturligtvis en hake: all kod för att hantera trädet ska ligga i nod-klassen och vara rent rekursiv. Själva trädklassen är given och får inte ändras på alls.
+
+Teoridelen består i att i text och bilder (alltså inte kod) tydligt visa att du förstått rotationer i AVL-träd. Förklaringen ska ske i form av ett exempel där du sätter in ett antal värden i ett AVL-träd och förklarar varje steg som kräver rotationer. De värden du ska sätta in, och ordningen de ska sättas in, baseras på den första siffran i ditt användarnamn. Om du till exempel har användarnamnet hebe2345 ska du alltså ta den andra uppsättningen värden.
+
+Du kan förutsätta att personen du förklarar för vet vad binära sökträd är och förstår problemet med att de blir obalanserade. Däremot kan du inte förvänta dig att personen förstår något om rotationer. Förklaringen ska vara på en sådan nivå att man ska kunna implementera rotationerna efter att ha gått igenom förklaringen ordentligt, så den måste vara ganska detaljerad och ta upp alla fall ordentligt. Förklaringen ska också vara helt och hållet din egen. Lätt förklädda versioner av boken, wikipedia, edyl. ger automatiskt underkänt, och om källorna inte är ordentligt angivna också anmälda för plagiat.
+
+Några saker att tänka på är:
+
+Bilder är bra, men de måste vara tydliga och ligga på en lämplig plats så att det är lätt för läsaren att koppla dem till texten.
+En bild på trädet före och efter rotationen med en förklaring i stil med "A flyttas upp och B blir högerbarn till A" räcker inte annat än de mest triviala fallen. Vad händer, och varför händer det?
+Insättningar som inte kräver några rotationer behöver inte förklaras.
+Ni måste förklara både enkel och dubbelrotationen, och inte bara de enklaste fallen med tre noder utan ytterligare barn. Samtliga uppsättningar data har lämpliga fall för detta.
+Ett tips är att skissa på hur du vill lägga upp förklaringen och sedan presentera den muntligt för någon vän eller familjemedlem. Om denne inte förstår när du står bredvid och kan hjälpa till så behöver du antagligen utveckla förklaringen.
+
+Det som ska lämnas in är två saker:
+
+BinarySearchTreeNode.java (Inga andra delar av koden ska lämnas in, och namnet på klassen ska vara oförändrat. Filen ska innehålla namn och användarnamn till samtliga gruppmedlemmar i en kommentar högst upp.
+En rapport som innehåller er förklaring av rotationer i AVL-träd. Rapporten skall som vanligt vara skriven i Latex, inlämnad i pdf-format och baserad på kursens dokumentmall.
+De bägge filerna ska inte packas på något sätt.
