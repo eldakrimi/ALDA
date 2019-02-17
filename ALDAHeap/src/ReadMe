@@ -1,0 +1,6 @@
+Instruktioner för veckans inlämningsuppgift
+Obs! Det går inte att lämna in denna uppgift om du inte blivit godkänd på muntafrågorna.
+
+Uppgiften för detta tema går ut på att ta bokens implementation av en binär heap och förvandla den till en d-heap. Det som ska lämnas in är klassen DHeap.
+
+I en binär heap är det enkelt att hitta en nods förälder och första barn, det är bara att dela nodens index med 2 eller multiplicera med 2. I en d-heap är det något mer komplicerat, men inte alltför mycket. Det ingår i uppgiften att lista ut hur man gör för att hitta förälder och barn. Ett tips är att rita upp de första tre nivåerna på en 3-heap,  en 4-heap och en 5-heap och försöka hitta sambandet för dem.

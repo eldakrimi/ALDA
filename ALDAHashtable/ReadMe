@@ -1,0 +1,6 @@
+Instruktioner för veckans inlämningsuppgift
+Obs! Det går inte att lämna in denna uppgift om du inte blivit godkänd på muntafrågorna.
+
+Denna uppgift är ny för i år. Det finns därför en risk att det finns fel eller tveksamheter i beskrivningen eller testerna. Om du stöter på något som verkar konstigt så hör av dig, gärna via handledningsforumet. I skrivandets stund saknas data i ett av testfallen. Detta kommer att uppdateras under måndagen.
+
+Här i ilearn hittar du tre implementationer av hastabeller som använder olika kollisionshanteringsstrategier. Den ena av dessa är färdigskriven och använder bokens version av kvadratisk sondering. Di uppgift är att skriva klart de bägge andra. Du ska dessutom förbereda klassen Book för att använda som nyckel i en hastabell.
